@@ -96,7 +96,9 @@ ul {
 .header-link:hover,
 .header-link:focus,
 .address-mail:hover,
-.address-mail:focus {
+.address-mail:focus,
+.address-tel:hover,
+.address-tel:focus {
   color: var(--active-color);
 }
 .header-link.current {
@@ -381,7 +383,9 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .categories-btns {
